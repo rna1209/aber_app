@@ -14,6 +14,10 @@ st.markdown("""
             background-color: #ffffff;
             color: #0f5123;
         }
+        .stTextInput>div>div>input {
+            background-color: #ffffff;
+            color: #000000 !important;
+        }
         .stButton>button {
             background-color: #198754;
             color: white;
@@ -23,7 +27,6 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-
 
 
 # حالة البرنامج للتنقل بين الخطوات
