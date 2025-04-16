@@ -8,26 +8,26 @@ st.set_page_config(page_title="عابر", layout="centered")
 st.markdown("""
     <style>
         body {
-            background-color: #ffffff;
+            background-color: #000000;
+            color: #ffffff;
         }
         .stApp {
-            background-color: #ffffff;
-            color: #0f5123;
+            background-color: #000000;
+            color: #ffffff;
         }
-        .stTextInput>div>div>input {
+        .stTextInput > div > div > input {
             background-color: #ffffff;
-            color: #000000 !important;
+            color: #000000;
         }
         .stButton>button {
             background-color: #198754;
             color: white;
         }
         .css-1d391kg {
-            color: #0f5123;
+            color: #ffffff;
         }
     </style>
 """, unsafe_allow_html=True)
-
 
 # حالة البرنامج للتنقل بين الخطوات
 if "step" not in st.session_state:
